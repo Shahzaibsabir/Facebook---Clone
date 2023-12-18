@@ -1,25 +1,90 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-body{
+a {
+    list-style-type: none;
+    text-decoration: none;
+    border: none;
+}
+
+body {
     background-color: rgb(206, 205, 205);
 }
 
 
-.main{
+.main {
 
     margin-top: 100px;
+    z-index: -1;
+    
 
 
 }
 
-form{
+form {
 
     background-color: white;
     padding: 30px;
     border-radius: 10px;
+    box-shadow: 0px 0px 10px 0.1px rgba(77, 76, 76, 0.8);
+    margin-bottom: 100px;
+    z-index: -1;
+}
+
+.content h1 {
+    font-size: 80px;
+    font-weight: bold;
+    color: rgb(34, 105, 211);
+}
+
+.content h3 {
+    font-weight: 200;
+}
+
+
+
+/*====================== Registration section */
+
+
+.registration {
+    /* position: absolute; */
+    background-color: rgb(238, 241, 238);
+    z-index: 1;
+    margin-left: 100px 0px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+
+}
+
+.registration form {
+    margin: 1900px;
+    z-index: 1;
+}
+
+.registration, input {
+    width: 400px;
+    /* position: absolute; */
+    z-index: 1;
+    margin-top: 10px;
+}
+
+.reg {
     
+    border: 3px solid black;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    z-index: 1;
+    padding: 30px 500px;
+    background-color: rgb(0, 0, 0.7);
+    opacity: 0.9;
+    transition: all ease 0.2s;
+}
+.hidden{
+    visibility: hidden;
 }
